@@ -1,0 +1,44 @@
+
+.container-photo{
+    .img{
+        width: 100%;
+    }
+    position: relative;
+    height:auto;
+}
+.banner{
+    margin-top: 100px;
+}
+#contact{
+    .icon{
+        font-size: 13px;
+        background: #000;
+        margin: 4px;
+        width: 25px;
+        height: 25px;
+        text-align: center;
+    }
+}
+
+a{
+    color:$bg-white;
+}
+#statistics{
+    margin-top: 50px;
+    .stats-item{
+        margin-right: 25px;
+        color:$bg-white;
+        font-size: 20px;
+        .counter{
+            font-size: 30px;
+        }
+    }
+}
+.text-color-red{
+    color:$bg-red;
+}
+#services{
+    .icon-service{
+        font-size:45px;
+    }
+}

@@ -1,0 +1,30 @@
+#experiences-title {
+    &:before{
+        width: 80px;
+        height: 3px;
+        left:calc(50% - 290px);
+        bottom:-435px;
+    }
+    &:after{
+        width: 80px;
+        height: 3px;
+        right:calc(50% - 290px);
+        bottom:-435px
+    }
+    
+}
+#experiences{
+    .experiences-area{
+        width: 500px;
+        border-left: 2px solid $bg-red;
+        padding: 0 0px 0 30px;
+        .exp{
+            background-color: #F0F2F5;
+            padding: 10px 25px;
+            line-height: 1.7;
+            position: relative;
+            height: 130px;
+            margin-bottom: 20px;
+        }
+      }
+}

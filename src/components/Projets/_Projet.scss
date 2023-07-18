@@ -1,0 +1,12 @@
+.thumbnail{
+    height: 150px;
+}
+.bg-view-more{
+    text-decoration: none;
+    background: $bg-black;
+    padding: 15px;
+    border-radius: 10px;
+    &:hover{
+        background: $bg-red;
+    }
+}

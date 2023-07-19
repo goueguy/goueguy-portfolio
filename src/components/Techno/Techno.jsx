@@ -1,6 +1,6 @@
 import React from 'react'
 import { BiLogoTailwindCss,BiLogoRedux,BiLogoBootstrap } from "react-icons/bi";
-import {FaGit,FaFigma,FaFacebook,FaJs,FaNodeJs,FaSass,FaDatabase,FaPhp} from "react-icons/fa6";
+import {FaGit,FaFigma,FaFacebook,FaJs,FaNodeJs,FaSass,FaDatabase,FaPhp, FaNeos} from "react-icons/fa6";
 export default function Techno() {
   return (
     <section id="techno" className='marge'>
@@ -82,7 +82,7 @@ export default function Techno() {
             </div>
             <div className="marge d-flex techno-card col-lg-4">
                 <div className="w-100 d-flex dark-card align-items-center flex-row justify-content-between card">
-                    <span className='icon-techno'><FaDatabase/></span>
+                    <span className='icon-techno'><FaNeos/></span>
                     <div className='p-4 w-100'>
                         <h5 className='fw-bold'>Trello / Notion</h5>
                         <p className='text-justify'>Gérer les tâches de manière éfficiente dans le cadre d'un projet</p>

@@ -19,12 +19,13 @@ body{
     color:$bg-red;
 }
 .dark-card{
-    background: rgba(113, 111, 111, 0.3);
-    color:#fff;
+    background: $bg-gray;
+    color:$bg-white;
     padding: 6px;
 }
 .border-bottom{
-    border:2px solid #fff;
+    border:2px solid $bg-white;
+    margin:40px 0px 80px 0px;
 }
 
 .navbar-toggler{
@@ -34,6 +35,7 @@ body{
 .marge{
     margin-top: 40px;
 }
+
 @media only screen and (max-width: 800px) {
     /* For mobile phones: */
     .navbar-expand-lg{

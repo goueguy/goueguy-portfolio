@@ -7,13 +7,13 @@ export default function Banner() {
         <div className='col-lg-8'>
             <p className='text-white mb-3'><span>Bonjour, </span><span className='myself'>Je suis</span></p>
             <h2 className='text-white fw-bold mb-3'>GOUEGUY Jean-Louis Alexis,</h2>
-            <p className='text-white'>passionné de développement web et mobile basé en côte d’ivoire. <br/>Bienvenue sur mon porfolio.</p>
+            <p className='text-white'>passionné de développement web et mobile basé en côte d’ivoire. <br/>Bienvenue sur mon portfolio.</p>
             <p className='text-white'></p>
             <section id='contact' className='mt-5'>
                 <h5 className='text-white'>TROUVER MOI SUR:</h5>
-                <div className='d-flex flex-row'>
-                    <span className='icon text-white'><a target="_blank" href="https://www.linkedin.com/in/jean-louis-alexis-goueguy-455316199/"><FaLinkedinIn/></a></span>
-                    <span className='icon text-white'><a target="_blank" href="https://www.facebook.com/jeanlouis.goueguy"><FaSquareFacebook/></a></span>
+                <div className='d-flex flex-row justify-content-start'>
+                    <span className='icon text-white'><a target="_blank" href="https://www.linkedin.com/in/jean-louis-alexis-goueguy-455316199/"><FaLinkedinIn/></a></span>&nbsp;&nbsp;
+                    <span className='icon text-white'><a target="_blank" href="https://www.facebook.com/jeanlouis.goueguy"><FaSquareFacebook/></a></span>&nbsp;&nbsp;
                     <span className='icon text-white'><a target="_blank" href="https://github.com/goueguy"><FaSquareGithub/></a></span>
                 </div>
             </section>

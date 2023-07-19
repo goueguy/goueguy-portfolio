@@ -1,5 +1,5 @@
 import React from 'react'
-import { ACSC_IMAGE, CONGRES_IMAGE ,FODI_IMAGE, FONDATION_JIGHI_IMAGE } from '../../utils/showImage'
+import {PROJECT_NUMBER_FOUR, PROJECT_NUMBER_ONE, PROJECT_NUMBER_THREE, PROJECT_NUMBER_TWO } from '../../utils/showImage'
 import { FaArrowRight } from 'react-icons/fa6'
 
 export default function Projet() {
@@ -11,22 +11,22 @@ export default function Projet() {
             </div>
             <div className="marge col-lg-3">
                 <div className="card">
-                   <img src={CONGRES_IMAGE} className="thumbnail" alt="" />
+                   <img src={PROJECT_NUMBER_ONE} className="img-height img-thumbnail" alt="" />
                 </div>
             </div>
             <div className="marge col-lg-3">
                 <div className="card">
-                   <img src={FODI_IMAGE} className="thumbnail" alt="" />
+                   <img src={PROJECT_NUMBER_TWO} className="img-height img-thumbnail" alt="" />
                 </div>
             </div>
             <div className="marge col-lg-3">
                 <div className="card">
-                   <img src={FONDATION_JIGHI_IMAGE} className="thumbnail" alt="" />
+                   <img src={PROJECT_NUMBER_THREE} className="img-height img-thumbnail" alt="" />
                 </div>
             </div>
             <div className="marge col-lg-3">
                 <div className="card">
-                    <img src={ACSC_IMAGE} className="thumbnail" alt="" />
+                    <img src={PROJECT_NUMBER_FOUR} className="img-height img-thumbnail" alt="" />
                 </div>
             </div>
             <div className='marge col-lg-12 text-center'>

@@ -1,4 +1,5 @@
 import Banner from "./components/Banner/Banner";
+import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Projet from "./components/Projets/Projet";
 import Resume from "./components/Resume/Resume";
@@ -11,12 +12,14 @@ function App() {
     <div className="container">
         <Header/>
         <Banner/>
-        <hr className="border-bottom" style={{marginBottom:"40px",marginTop:"80px"}}/>
+        <hr className="border-bottom"/>
         <Services/>
         <Techno/>
         <Projet/>
-        <hr className="border-bottom" style={{marginBottom:"40px",marginTop:"80px"}}/>
+        <hr className="border-bottom"/>
         <Resume/>
+        <hr className="border-bottom"/>
+        <Footer/>
     </div>
   )
 }

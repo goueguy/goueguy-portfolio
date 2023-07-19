@@ -1,5 +1,5 @@
-export const CONGRES_IMAGE = "../../public/projets/congres.png";
-export const FODI_IMAGE = "../../public/projets/fodi.gif";
-export const ACSC_IMAGE = "../../public/projets/acsc-logo.jpg";
-export const FONDATION_JIGHI_IMAGE = "../../public/projets/logo_jfondation.png";
-export const COMMUNAUTE_MANGORO_IMAGE = "../../public/projets/mangoro.png";
+export const PROJECT_NUMBER_ONE = "../../public/projets/project-one.jpg";
+export const PROJECT_NUMBER_TWO = "../../public/projets/project-two.jpg";
+export const PROJECT_NUMBER_THREE = "../../public/projets/ecommerce.jpg";
+export const PROJECT_NUMBER_FOUR = "../../public/projets/company.jpg";
+export const PROJECT_NUMBER_FIVE = "../../public/projets/mangoro.png";

@@ -5,6 +5,7 @@ import Projet from "./components/Projets/Projet";
 import Resume from "./components/Resume/Resume";
 import Services from "./components/Services/Services";
 import Techno from "./components/Techno/Techno";
+import Testimony from "./components/Testimony/Testimony";
 
 function App() {
  
@@ -18,6 +19,8 @@ function App() {
         <Projet/>
         <hr className="border-bottom"/>
         <Resume/>
+        <hr />
+        <Testimony/>
         <hr className="border-bottom"/>
         <Footer/>
     </div>

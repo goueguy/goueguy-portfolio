@@ -1,0 +1,28 @@
+.testimony-switch{
+    background: $bg-black;
+    border: none;
+    &:hover{
+        background-color: $bg-gray;
+        transition: all 0.4s;
+    }
+}
+
+.ml-3{
+    margin-left: 15px;
+}
+.stars-icon{
+    font-size: 18px;
+    color:orange;
+}
+.comment-icon{
+    font-size: 18px;
+}
+.avatar{
+    background: #000;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

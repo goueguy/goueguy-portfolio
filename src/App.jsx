@@ -1,4 +1,6 @@
 import Banner from "./components/Banner/Banner";
+import Contact from "./components/Contact/Contact";
+import Customer from "./components/Customer/Customer";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Projet from "./components/Projets/Projet";
@@ -19,8 +21,12 @@ function App() {
         <Projet/>
         <hr className="border-bottom"/>
         <Resume/>
-        <hr />
+        <hr className="border-bottom"/>
         <Testimony/>
+        <hr className="border-bottom"/>
+        <Customer/>
+        <hr className="border-bottom"/>
+        <Contact/>
         <hr className="border-bottom"/>
         <Footer/>
     </div>

@@ -4,7 +4,7 @@ import { FaLinkedinIn, FaSquareFacebook, FaSquareGithub } from 'react-icons/fa6'
 
 export default function Footer() {
   return (
-    <footer className='container'>
+    <footer className='container marge'>
         <div className="row">
            <div className="col-lg-12 d-flex justify-content-center">
                 <Logo/>

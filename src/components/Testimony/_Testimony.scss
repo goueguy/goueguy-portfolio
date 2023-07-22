@@ -26,3 +26,16 @@
     align-items: center;
     justify-content: center;
 }
+.testimony-indicator{
+    margin-top: 40px;
+    gap:10px;
+    .indicator{
+        background: $bg-white;
+        padding: 5px;
+        border: none;
+        border-radius: 10px;
+    }
+    .active{
+        background: $bg-red;
+    }
+}

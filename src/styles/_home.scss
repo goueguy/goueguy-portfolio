@@ -24,7 +24,7 @@ body{
     padding: 6px;
 }
 .border-bottom{
-    border:2px solid $bg-white;
+    border:1px solid $bg-black;
     margin:40px 0px 80px 0px;
 }
 
@@ -41,7 +41,6 @@ body{
     .navbar-expand-lg{
         text-align: center;
     }
-    
     .stats-item{
         text-align: center;
     }
@@ -53,5 +52,12 @@ body{
     }
     .banner{
         margin-top:50px !important;
+    }
+}
+
+@media screen and (max-width:500px){
+    .company-logo{
+        height: 100px !important;
+        width: 100px;
     }
 }

@@ -33,24 +33,24 @@ export default function Resume() {
                                 <p className='lh-lg'>Stagiaire Technicien Réseaux Informatiques</p>
                             </div>
                             <div className="col-lg-12 box border-radius mb-3 text-white">
-                                <h4>-</h4>
-                                <span className='fw-bold'>-</span>
-                                <p className='lh-lg'>-</p>
+                                <h4>*</h4>
+                                <span className='fw-bold'>*</span>
+                                <p className='lh-lg'>*</p>
                             </div>
                             <div className="col-lg-12 box border-radius mb-3 text-white">
-                                <h4>-</h4>
-                                <span className='fw-bold'>-</span>
-                                <p className='lh-lg'>-</p>
+                                <h4>*</h4>
+                                <span className='fw-bold'>*</span>
+                                <p className='lh-lg'>*</p>
                             </div>
                             <div className="col-lg-12 box border-radius mb-3 text-white">
-                                <h4>-</h4>
-                                <span className='fw-bold'>-</span>
-                                <p className='lh-lg'>-</p>
+                                <h4>*</h4>
+                                <span className='fw-bold'>*</span>
+                                <p className='lh-lg'>*</p>
                             </div>
                             <div className="col-lg-12 box border-radius mb-3 text-white">
-                                <h4>-</h4>
-                                <span className='fw-bold'>-</span>
-                                <p className='lh-lg'>-</p>
+                                <h4>*</h4>
+                                <span className='fw-bold'>*</span>
+                                <p className='lh-lg'>*</p>
                             </div>
                         </div>
                     </div>

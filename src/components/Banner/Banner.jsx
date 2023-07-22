@@ -7,7 +7,7 @@ export default function Banner() {
         <div className='col-lg-8'>
             <p className='text-white mb-3'><span>Bonjour, </span><span className='myself'>Je suis</span></p>
             <h2 className='text-white fw-bold mb-3'>GOUEGUY Jean-Louis Alexis,</h2>
-            <p className='text-white'>passionné de développement web et mobile basé en côte d’ivoire. <br/>Bienvenue sur mon portfolio.</p>
+            <p className='text-white'>passionné de développement web et mobile depuis l'âge de 20 ans, vivant en Côte d’Ivoire. <br/>Bienvenue sur mon portfolio.</p>
             <p className='text-white'></p>
             <section id='contact' className='mt-5'>
                 <h5 className='text-white'>TROUVER MOI SUR:</h5>

@@ -1,0 +1,17 @@
+.icon-contact{
+    font-size: 25px;
+    color:$bg-red;
+}
+.contactForm{
+    background: $bg-gray;
+    opacity: 0.5;
+    padding: 20px;
+    border-radius: 5px;
+    .form-control{
+        background:$bg-black;
+        border: none;
+    }
+    ::placeholder{
+        color:#fff;
+    }
+}

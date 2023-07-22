@@ -1,5 +1,9 @@
-export const PROJECT_NUMBER_ONE = "../../public/projets/project-one.jpg";
-export const PROJECT_NUMBER_TWO = "../../public/projets/project-two.jpg";
-export const PROJECT_NUMBER_THREE = "../../public/projets/ecommerce.jpg";
-export const PROJECT_NUMBER_FOUR = "../../public/projets/company.jpg";
-export const PROJECT_NUMBER_FIVE = "../../public/projets/mangoro.png";
+export const PROJECT_NUMBER_ONE = "/projets/project-one.jpg";
+export const PROJECT_NUMBER_TWO = "/projets/project-two.jpg";
+export const PROJECT_NUMBER_THREE = "/projets/ecommerce.jpg";
+export const PROJECT_NUMBER_FOUR = "/projets/company.jpg";
+export const PROJECT_NUMBER_FIVE = "/projets/mangoro.png";
+export const H_AND_CO_COMPANY = "/customers/hetco.jpg";
+export const ECK_COMPANY = "/customers/eck.jpg";
+export const MANGORO_COMPANY = "/customers/logo-mangoro.jpg";
+export const BLOCKHAUSS_FESTIVAL = "/customers/balf.jpg";

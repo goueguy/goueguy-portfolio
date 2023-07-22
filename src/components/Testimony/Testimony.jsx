@@ -5,8 +5,10 @@ export default function Testimony() {
   return (
     <section id="testimony" className='marge'>
         <div className="row">
-            <div className='col-lg-12 d-flex justify-content-between'>
-                <h5 className='text-color-red'>TEMOIGNAGES DES CLIENTS</h5>
+            <div className="col-lg-12 text-center">
+                <h5 className='text-color-red'>CE QUE DISENT LES CLIENTS</h5>
+            </div>
+            <div className='col-lg-12 d-flex flex-wrap justify-content-end'>
                 <div>
                     <Button className="btn btn-primary testimony-switch"><FaArrowLeft/></Button>&nbsp;&nbsp;&nbsp;
                     <Button className="btn btn-primary testimony-switch"><FaArrowRight/></Button>
@@ -65,6 +67,13 @@ export default function Testimony() {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className='testimony-indicator d-flex justify-content-center'>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="indicator" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" className="indicator" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" className="indicator active" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="indicator" aria-current="true" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" className="indicator" aria-label="Slide 5"></button>
             </div>
             {/* ****** */}
         </div>

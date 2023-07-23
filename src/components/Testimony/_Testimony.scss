@@ -39,3 +39,20 @@
         background: $bg-red;
     }
 }
+
+.show{
+    display: flex !important;
+    animation: fade 0.8s;
+}
+.hidden{
+    display: none !important;
+}
+
+@keyframes fade{
+    from {
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}

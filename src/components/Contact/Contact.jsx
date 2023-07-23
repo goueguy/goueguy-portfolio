@@ -10,7 +10,7 @@ export default function Contact() {
                 <h5 className='text-color-red'>CONTACTEZ-MOI</h5>
             </div>
         </div>
-        <div className="row">
+        <div className="row marge">
             <div className="col-lg-4">
                 <div className="row">
                     <div className="col-lg-12 mb-2">

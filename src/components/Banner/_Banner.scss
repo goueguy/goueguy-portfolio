@@ -5,6 +5,7 @@
     }
     position: relative;
     height:auto;
+    animation: animateIcon 6s infinite forwards;
 }
 .banner{
     margin-top: 100px;
@@ -39,5 +40,14 @@ a{
 #services{
     .icon-service{
         font-size:45px;
+    }
+}
+
+@keyframes animateIcon {
+    from{
+       opacity: 0;
+    }
+    to{
+       opacity: 1;
     }
 }

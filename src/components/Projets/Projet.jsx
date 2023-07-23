@@ -34,7 +34,7 @@ export default function Projet() {
                 </div>
             </div>
             <div className='marge col-lg-12 text-center'>
-                <a href="javascript:void(0);" className='bg-view-more'>Voir tous les projets <FaArrowRight/></a>
+                <a href="#" className='bg-view-more'>Voir tous les projets <FaArrowRight/></a>
             </div>
         </div>
     </section>

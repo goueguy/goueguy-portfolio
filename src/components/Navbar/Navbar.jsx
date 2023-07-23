@@ -16,16 +16,16 @@ export default function Navbar() {
                         <a className="nav-link text-white active" aria-current="page" href="#">ACCUEIL</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link text-white" href="#">SERVICES</a>
+                        <a className="nav-link text-white" href="#services">SERVICES</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link text-white" href="#">EXPERIENCES</a>
+                        <a className="nav-link text-white" href="#resume">EXPERIENCES</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link text-white" href="#">PROJETS</a>
+                        <a className="nav-link text-white" href="#projets">PROJETS</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link text-white" href="#">CONTACTEZ MOI</a>
+                        <a className="nav-link text-white" href="#contact">CONTACTEZ MOI</a>
                     </li>
                 </ul>
                 <a className="btn btn-primary btn-download" href={cv_link} download>TELECHARGER CV</a>

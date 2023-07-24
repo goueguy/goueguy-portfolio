@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import Banner from "./components/Banner/Banner";
 import Contact from "./components/Contact/Contact";
 import Customer from "./components/Customer/Customer";
@@ -12,13 +12,19 @@ import Testimony from "./components/Testimony/Testimony";
 import animateTextWithTypeIt from "./utils/animateText";
 import animateStatistics from "./utils/showStatistics";
 import ScrollIcon from "./components/ScrollIcon/ScrollIcon";
+import 'react-loading-skeleton/dist/skeleton.css'
+import Logo from "./components/Logo/Logo";
 
 function App() {
+  const [loading, setLoading] = useState(true);
+
   useEffect(()=>{
-    animateTextWithTypeIt();
-    animateStatistics();
-    
-  },[])
+    setTimeout(() => {
+      setLoading(false)
+      animateTextWithTypeIt();
+      animateStatistics();
+    }, 1000);
+  })
   window.onscroll = ()=>{
     if(document.body.scrollTop > 40 || document.documentElement.scrollTop > 40){
       document.querySelector("#scrollTop").style.display = 'block';
@@ -28,23 +34,33 @@ function App() {
   }
   return (
     <div className="container">
-        <Header/>
-        <Banner/>
-        <hr className="border-bottom"/>
-        <Services/>
-        <Techno/>
-        <Projet/>
-        <hr className="border-bottom"/>
-        <Resume/>
-        <hr className="border-bottom"/>
-        <Testimony/>
-        <hr className="border-bottom"/>
-        <Customer/>
-        <hr className="border-bottom"/>
-        <Contact/>
-        <hr className="border-bottom"/>
-        <Footer/>
-        <ScrollIcon/>
+        {
+          loading ? (
+            <div className="loading">
+                <Logo/>
+            </div>
+          ):(
+            <div>
+              <Header/>
+              <Banner/>
+              <hr className="border-bottom"/>
+              <Services/>
+              <Techno/>
+              <Projet/>
+              <hr className="border-bottom"/>
+              <Resume/>
+              <hr className="border-bottom"/>
+              <Testimony/>
+              <hr className="border-bottom"/>
+              <Customer/>
+              <hr className="border-bottom"/>
+              <Contact/>
+              <hr className="border-bottom"/>
+              <Footer/>
+              <ScrollIcon/>
+            </div>
+          )
+        }
     </div>
   )
 }

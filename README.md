@@ -1,5 +1,5 @@
 
-- Implémenter le chargement des composants avec React Skeleton Loading
+- afficher le logo pendant le chargement de la page => OK
 - Ajouter un icon scroll to Top à partir du footer => OK
 - Faire fonctionner le formulaire de contact:
     - récupérer les données du formulaire

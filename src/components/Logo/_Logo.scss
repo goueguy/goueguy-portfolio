@@ -8,3 +8,10 @@ $color-text:#fff;
     height: 50px;
     padding: 14px;
 }
+
+.loading{
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}

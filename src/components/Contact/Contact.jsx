@@ -2,7 +2,7 @@ import React from 'react'
 import ContactForm from './ContactForm'
 import {FaLocationDot,FaPhone,FaSquareEnvelope,FaRegCircleCheck} from "react-icons/fa6"
 
-export default function Contact() {
+export default function Contact({sendemail,errors}) {
   return (
     <section id="contact" className='marge'>
         <div className="row">
@@ -40,7 +40,7 @@ export default function Contact() {
                 </div>
             </div>
             <div className="col-lg-8">
-                <ContactForm/>
+                <ContactForm sendemail={sendemail} errors={errors}/>
             </div>
         </div>
     </section>

@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Banner from "./components/Banner/Banner";
 import Contact from "./components/Contact/Contact";
 import Customer from "./components/Customer/Customer";
@@ -12,12 +12,13 @@ import Testimony from "./components/Testimony/Testimony";
 import animateTextWithTypeIt from "./utils/animateText";
 import animateStatistics from "./utils/showStatistics";
 import ScrollIcon from "./components/ScrollIcon/ScrollIcon";
-import 'react-loading-skeleton/dist/skeleton.css'
 import Logo from "./components/Logo/Logo";
+
 
 function App() {
   const [loading, setLoading] = useState(true);
-
+  const [errors, setError]= useState([]);
+  const scrollRef = useRef(null);
   useEffect(()=>{
     setTimeout(() => {
       setLoading(false)
@@ -27,10 +28,36 @@ function App() {
   })
   window.onscroll = ()=>{
     if(document.body.scrollTop > 40 || document.documentElement.scrollTop > 40){
-      document.querySelector("#scrollTop").style.display = 'block';
+      scrollRef.current.style.display = 'block';
     }else{
-      document.querySelector("#scrollTop").style.display = 'none';
+      scrollRef.current.style.display = 'none';
     }
+  }
+  const sendEmail = (data)=>{
+    fetch("http://127.0.0.1:8000/api/portfolio/contact-form/data",{
+        method:"POST",
+        mode: "cors",
+        headers:{
+            "Content-Type":"application/json",
+        },
+        body:JSON.stringify(data)
+      }).then(response=>response.json())
+      .then(data=>{
+        if(data.code==400){
+            setError({
+              errors:data.errors
+            });
+        }else{
+          setError({
+            errors:[]
+          });
+          Swal.fire({
+            text: data.message,
+            icon: 'success',
+            confirmButtonText: 'FERMER'
+          })
+        }
+    })
   }
   return (
     <div className="container">
@@ -54,10 +81,10 @@ function App() {
               <hr className="border-bottom"/>
               <Customer/>
               <hr className="border-bottom"/>
-              <Contact/>
+              <Contact sendemail={sendEmail} errors={errors}/>
               <hr className="border-bottom"/>
               <Footer/>
-              <ScrollIcon/>
+              <ScrollIcon reference={scrollRef}/>
             </div>
           )
         }

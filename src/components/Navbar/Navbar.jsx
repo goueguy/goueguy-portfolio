@@ -1,6 +1,5 @@
 import React from 'react'
 import Logo from '../Logo/Logo'
-import Button from '../Button/Button'
 import cv_link from "../../assets/files/CV_JB_DEV_WEB_MOBILE.pdf"
 export default function Navbar() {
   return (

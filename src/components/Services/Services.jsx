@@ -18,14 +18,14 @@ export default function Services() {
                 <div className="card dark-card">
                     <span className='icon-service'><FaMobileScreenButton/></span>
                     <h5 className='mt-3 mb-3 fw-bold'>APPLICATIONS MOBILES</h5>
-                    <p className='text-justify'>Je conçois des applications mobiles sécurisées , innovantes et performantes sur IOS et Android en partant d'une maquette.</p>
+                    <p className='text-justify'>Je conçois des applications mobiles innovantes et performantes sur IOS et Android en partant d'une maquette.</p>
                 </div>
             </div>
             <div className="mt-4 col-lg-3">
                 <div className="card dark-card">
                     <span className='icon-service'><FaRegRectangleList/></span>
                     <h5 className='mt-3 mb-3 fw-bold'>SEO</h5>
-                    <p className='text-justify'>J’améliore le positionnement de vos pages, sites ou applications web dans la page des résultats des moteurs de recherches.</p>
+                    <p className='text-justify'>J’améliore le positionnement de vos pages, sites ou applications web dans les résultats des moteurs de recherches.</p>
                 </div>
             </div>
             <div className="mt-4 col-lg-3">

@@ -17,3 +17,11 @@
 .link{
     color:$bg-black !important;
 }
+
+#project-container {
+    flex-wrap: nowrap;
+    overflow: hidden;
+    margin-left: -22px;
+    margin-right: -22px;
+    scroll-behavior: smooth;
+}

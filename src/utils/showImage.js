@@ -4,6 +4,6 @@ export const PROJECT_NUMBER_THREE = "/projets/ecommerce.jpg";
 export const PROJECT_NUMBER_FOUR = "/projets/company.jpg";
 export const PROJECT_NUMBER_FIVE = "/projets/mangoro.png";
 export const H_AND_CO_COMPANY = "/customers/hetco.jpg";
-export const ECK_COMPANY = "/customers/eck.jpg";
+export const STANDARDIX_COMPANY = "/logo/standardix.png";
 export const MANGORO_COMPANY = "/customers/logo-mangoro.jpg";
 export const BLOCKHAUSS_FESTIVAL = "/customers/balf.jpg";

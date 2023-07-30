@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Button from '../Button/Button'
 import {FaArrowRight,FaArrowLeft,FaComment,FaStarHalfStroke,FaUser} from "react-icons/fa6"
-import showNumberTestimonialSlide from '../../utils/carousel';
+import {showNumberTestimonialSlide} from '../../utils/carousel';
 
 export default function Testimony() {
 
@@ -39,22 +39,22 @@ export default function Testimony() {
         <section className='carousel-container'>
             <div className={`row carousel ${slide===0 ? "show":"hidden"}`}>
                 <div className="col-lg-4 marge">
-                        <div className="card dark-card p-3">
-                            <div className='d-flex justify-content-between mb-4'>
-                                <span className='comment-icon'><FaComment/></span>
-                                <span className='stars-icon'><FaStarHalfStroke/><FaStarHalfStroke/><FaStarHalfStroke/><FaStarHalfStroke/><FaStarHalfStroke/></span>
+                    <div className="card dark-card p-3">
+                        <div className='d-flex justify-content-between mb-4'>
+                            <span className='comment-icon'><FaComment/></span>
+                            <span className='stars-icon'><FaStarHalfStroke/><FaStarHalfStroke/><FaStarHalfStroke/><FaStarHalfStroke/><FaStarHalfStroke/></span>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et aliquam illum quaerat vel nisi corporis vero. Ipsam labore quaerat consequuntur magni modi corrupti. Iure harum laboriosam illo est ipsum commodi.</p>
+                        <div className='d-flex align-items-center'>
+                            <div className='mr-3'>
+                                <div className='avatar'><FaUser/></div>
                             </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et aliquam illum quaerat vel nisi corporis vero. Ipsam labore quaerat consequuntur magni modi corrupti. Iure harum laboriosam illo est ipsum commodi.</p>
-                            <div className='d-flex align-items-center'>
-                                <div className='mr-3'>
-                                    <div className='avatar'><FaUser/></div>
-                                </div>
-                                <div className='ml-3'>
-                                    <div className='fw-bold'>Sam Freeman</div>
-                                    <div>Business Manager and CEO</div>
-                                </div>
+                            <div className='ml-3'>
+                                <div className='fw-bold'>Sam Freeman</div>
+                                <div>Business Manager and CEO</div>
                             </div>
                         </div>
+                    </div>
                 </div>
                 <div className="col-lg-4 marge">
                     <div className="card dark-card p-3">

@@ -6,4 +6,9 @@ const showNumberTestimonialSlide = ()=>{
     return nbrOfSlides;
 }
 
-export default showNumberTestimonialSlide;
+const showContainerProjetSlide = ()=>{
+    const container = document.querySelector("#project-container");
+    const sliderWidth = document.querySelector(".project").clientWidth;
+    return {sliderWidth,container}
+}
+export {showNumberTestimonialSlide,showContainerProjetSlide};

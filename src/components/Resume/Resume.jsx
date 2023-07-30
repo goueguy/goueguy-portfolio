@@ -18,29 +18,29 @@ export default function Resume() {
                                 <p className='lh-lg'>Développeur Web Fullstack</p>
                             </div>
                             <div className="col-lg-12 box border-radius mb-3 text-white">
+                                <h4>28 Juin 2019 – Octobre 2020</h4>
+                                <span className='fw-bold'>JIGHI CI</span>
+                                <p className='lh-lg'>Développeur Web</p>
+                            </div>
+                            <div className="col-lg-12 box border-radius mb-3 text-white">
+                                <h4>12 Février 2019 – 27 Juin 2019</h4>
+                                <span className='fw-bold'>TSP</span>
+                                <p className='lh-lg'>Stagiaire Développeur Web</p>
+                            </div>
+                            <div className="col-lg-12 box border-radius mb-3 text-white">
                                 <h4>15 Mai 2018 – 15 Novembre 2018</h4>
                                 <span className='fw-bold'>ALGORITHME CI</span>
-                                <p className='lh-lg'>Développeur Web Stagiaire</p>
+                                <p className='lh-lg'>Stagiaire Développeur Web</p>
+                            </div>
+                            <div className="col-lg-12 box border-radius mb-3 text-white">
+                                <h4>16 Octobre 2017 – 16 Avril 2018</h4>
+                                <span className='fw-bold'>FODI</span>
+                                <p className='lh-lg'>Stagiaire Webmaster</p>
                             </div>
                             <div className="col-lg-12 box border-radius mb-3 text-white">
                                 <h4>15 Août 2014 – 15 Juin 2015</h4>
                                 <span className='fw-bold'>SODEMI</span>
                                 <p className='lh-lg'>Stagiaire Technicien Réseaux Informatiques</p>
-                            </div>
-                            <div className="col-lg-12 box border-radius mb-3 text-white">
-                                <h4>15 Août 2014 – 15 Juin 2015</h4>
-                                <span className='fw-bold'>SODEMI</span>
-                                <p className='lh-lg'>Stagiaire Technicien Réseaux Informatiques</p>
-                            </div>
-                            <div className="col-lg-12 box border-radius mb-3 text-white">
-                                <h4>*</h4>
-                                <span className='fw-bold'>*</span>
-                                <p className='lh-lg'>*</p>
-                            </div>
-                            <div className="col-lg-12 box border-radius mb-3 text-white">
-                                <h4>*</h4>
-                                <span className='fw-bold'>*</span>
-                                <p className='lh-lg'>*</p>
                             </div>
                             <div className="col-lg-12 box border-radius mb-3 text-white">
                                 <h4>*</h4>

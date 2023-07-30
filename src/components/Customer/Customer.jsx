@@ -1,5 +1,5 @@
 import React from 'react'
-import { BLOCKHAUSS_FESTIVAL, ECK_COMPANY, H_AND_CO_COMPANY, MANGORO_COMPANY } from '../../utils/showImage'
+import { BLOCKHAUSS_FESTIVAL, STANDARDIX_COMPANY, H_AND_CO_COMPANY, MANGORO_COMPANY } from '../../utils/showImage'
 
 export default function Customer() {
   return (
@@ -22,7 +22,7 @@ export default function Customer() {
             </div>
             <div className="marge col-lg-2">
                 <div className="text-center">
-                    <img src={ECK_COMPANY} className='company-logo' alt='ECK'/>
+                    <img src={STANDARDIX_COMPANY} className='company-logo' alt='Standardix'/>
                 </div>
             </div>
             <div className="marge col-lg-2">

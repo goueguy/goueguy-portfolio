@@ -5,7 +5,6 @@ export default function Resume() {
     <section id="resume" className='marge'>
         <div className='row'>
             <div className="row">
-                {/* EXPERIENCE */}
                 <section className="col-lg-6">
                     <header className="fw-bold title text-white">
                         <span className='text-color-red'>EXPERIENCE</span>
@@ -55,7 +54,6 @@ export default function Resume() {
                         </div>
                     </div>
                 </section>
-                {/* EDUCATION */}
                 <section className="col-lg-6">
                     <header className="fw-bold title text-white text-right">
                        <span className='text-color-red'>EDUCATION</span>

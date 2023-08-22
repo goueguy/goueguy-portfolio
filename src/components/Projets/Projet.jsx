@@ -16,7 +16,7 @@ export default function Projet() {
 
 
   return (
-    <div className='container'>
+    <div id="projects" className='container'>
         <div className="row marge">
             <div className='col-lg-12 text-center'>
                 <h5 className='text-color-red'>PROJETS RECENTS</h5>

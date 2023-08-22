@@ -12,7 +12,7 @@ export default function Navbar() {
             <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav mx-auto">
                     <li className="nav-item">
-                        <a className="nav-link text-white active" aria-current="page" href="#">ACCUEIL</a>
+                        <a className="nav-link text-white active" aria-current="page" href="/">ACCUEIL</a>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link text-white" href="#services">SERVICES</a>
@@ -21,7 +21,7 @@ export default function Navbar() {
                         <a className="nav-link text-white" href="#resume">EXPERIENCES</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link text-white" href="#projets">PROJETS</a>
+                        <a className="nav-link text-white" href="#projects">PROJETS</a>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link text-white" href="#contact">CONTACTEZ MOI</a>

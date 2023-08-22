@@ -1,6 +1,6 @@
 import React from 'react'
 import photo from "/src/assets/images/illustration.svg";
-import {FaLinkedinIn,FaSquareFacebook,FaSquareGithub} from "react-icons/fa6";
+import {FaLinkedinIn,FaSquareFacebook,FaSquareGithub,FaSquareWhatsapp} from "react-icons/fa6";
 export default function Banner() {
   return (
     <div className='row banner'>
@@ -13,9 +13,10 @@ export default function Banner() {
             <section className='mt-5'>
                 <h5 className='text-white'>TROUVER MOI SUR:</h5>
                 <div className='d-flex flex-row justify-content-start'>
-                    <span className='icon text-white'><a target="_blank" href="https://www.linkedin.com/in/jean-louis-alexis-goueguy-455316199/"><FaLinkedinIn/></a></span>&nbsp;&nbsp;
+                    <span className='icon text-white'><a target="_blank" href="https://www.linkedin.com/in/jean-louis-goueguy/"><FaLinkedinIn/></a></span>&nbsp;&nbsp;
                     <span className='icon text-white'><a target="_blank" href="https://www.facebook.com/jeanlouis.goueguy"><FaSquareFacebook/></a></span>&nbsp;&nbsp;
-                    <span className='icon text-white'><a target="_blank" href="https://github.com/goueguy"><FaSquareGithub/></a></span>
+                    <span className='icon text-white'><a target="_blank" href="https://github.com/goueguy"><FaSquareGithub/></a></span>&nbsp;&nbsp;
+                    <span className='icon text-white'><a target="_blank" href="https://wa.link/34vgd1"><FaSquareWhatsapp/></a></span>
                 </div>
             </section>
             <section id='statistics' className='row'>

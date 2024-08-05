@@ -6,23 +6,24 @@ export default function Customer() {
     <section id="customer" className='marge'>
         <div className="row">
             <div className='col-lg-12'>
-                <h5 className='text-color-red'>MES CLIENTS</h5>
+                <h5 className='text-color-red text-center'>MES CLIENTS</h5>
             </div>
         </div>
-        <div className="row">
+        <div className="d-flex justify-content-center align-items-center row">
             <div className="marge col-lg-2">
                 <div className="text-center">
-                   <img src={H_AND_CO_COMPANY} className='company-logo' alt='H & CO GROUP'/>
+                    <img src={`https://sifage.netlify.app/assets/sivage-cxOCVKnR.png`} className='w-100 company-logo'
+                         alt='Standardix'/>
+                </div>
+            </div>
+            <div className="marge col-lg-2">
+                <div className="text-center">
+                    <img src={H_AND_CO_COMPANY} className='company-logo' alt='H & CO GROUP'/>
                 </div>
             </div>
             <div className="marge col-lg-2">
                 <div className="text-center">
                     <img src={MANGORO_COMPANY} className='company-logo' alt='Communauté Mangoro'/>
-                </div>
-            </div>
-            <div className="marge col-lg-2">
-                <div className="text-center">
-                    <img src={STANDARDIX_COMPANY} className='company-logo' alt='Standardix'/>
                 </div>
             </div>
             <div className="marge col-lg-2">

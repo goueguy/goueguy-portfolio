@@ -1,9 +1,0 @@
-export const PROJECT_NUMBER_ONE = "/projets/salon-des-metiers-cocody-2024.png";
-export const PROJECT_NUMBER_TWO = "/projets/sivage.png";
-export const PROJECT_NUMBER_THREE = "/projets/jighi-website.png";
-export const PROJECT_NUMBER_FOUR = "/projets/company.jpg";
-export const PROJECT_NUMBER_FIVE = "/projets/mangoro.png";
-export const H_AND_CO_COMPANY = "/customers/hetco.jpg";
-export const STANDARDIX_COMPANY = "/logo/standardix.png";
-export const MANGORO_COMPANY = "/customers/logo-mangoro.jpg";
-export const BLOCKHAUSS_FESTIVAL = "/customers/balf.jpg";

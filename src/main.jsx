@@ -8,7 +8,7 @@ import "./styles/custom.scss"
 import 'bootstrap/dist/js/bootstrap.bundle.js'
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/portfolio",
     element: <App/>,
     errorElement: <ErrorPage />,
   },
